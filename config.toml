@@ -1,0 +1,26 @@
+baseURL = "https://www.monofuel.dev/"
+languageCode = "en-us"
+title = "Monofuel"
+theme = "ananke"
+googleAnalytics = "UA-145434218-1"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = ""
+  facebook = ""
+  twitter = "https://twitter.com/monofuel34089"
+  instagram = ""
+  youtube = "https://www.youtube.com/channel/UC6kNARXo6GvZ7nB3xjSmHNQ"
+  github = "http://github.com/monofuel"
+  gitlab = "https://gitlab.com/monofuel34089"
+  linkedin = "https://www.linkedin.com/in/andrew-brower-014684b2/"
+  mastodon = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/PANO_20180421_105142.jpg"
+  recent_posts_number = 2
