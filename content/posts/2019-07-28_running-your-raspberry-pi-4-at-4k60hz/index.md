@@ -2,7 +2,7 @@
 title: "Running your Raspberry Pi 4 at 4k60hz"
 author: "monofuel"
 date: 2019-07-28T02:44:09.791Z
-lastmod: 2019-08-12T02:40:37Z
+lastmod: 2019-11-03T04:30:09Z
 
 description: ""
 
@@ -10,10 +10,10 @@ subtitle: "It looks so good it hertz"
 
 image: "/posts/2019-07-28_running-your-raspberry-pi-4-at-4k60hz/images/1.jpeg" 
 images:
- - "/posts/2019-07-28_running-your-raspberry-pi-4-at-4k60hz/images/1.jpeg"
- - "/posts/2019-07-28_running-your-raspberry-pi-4-at-4k60hz/images/2.jpeg"
- - "/posts/2019-07-28_running-your-raspberry-pi-4-at-4k60hz/images/3.png"
- - "/posts/2019-07-28_running-your-raspberry-pi-4-at-4k60hz/images/4.png"
+ - "/posts/2019-07-28_running-your-raspberry-pi-4-at-4k60hz/images/1.jpeg" 
+ - "/posts/2019-07-28_running-your-raspberry-pi-4-at-4k60hz/images/2.jpeg" 
+ - "/posts/2019-07-28_running-your-raspberry-pi-4-at-4k60hz/images/3.png" 
+ - "/posts/2019-07-28_running-your-raspberry-pi-4-at-4k60hz/images/4.png" 
 
 
 aliases:
@@ -26,13 +26,13 @@ aliases:
 
 ![image](/posts/2019-07-28_running-your-raspberry-pi-4-at-4k60hz/images/1.jpeg)
 
-Last week I got a [CanaKit Raspberry Pi 4 Model B 4gb](https://amzn.to/2y6X0Jv), and wanted to try Steam Remote Play at 4k60hz. Previously, the Raspberry Pi 3 b+ was limited to 1080p. Other SBCs (Single Board Computers) like the [Asus Tinkerboard](https://amzn.to/32FVBYD) could output 4k over HDMI, however it was limited to 30hz.
+Last week I got a [CanaKit Raspberry Pi 4 Model B 4gb](https://amzn.to/2y6X0Jv) (paid link), and wanted to try Steam Remote Play at 4k60hz. Previously, the Raspberry Pi 3 b+ was limited to 1080p. Other SBCs (Single Board Computers) like the [Asus Tinkerboard](https://amzn.to/32FVBYD) (paid link) could output 4k over HDMI, however it was limited to 30hz.
 
 4k60hz is not enabled out of the box, and may need some extra debugging. At default, the pi will start at 4k30hz, and the mouse will feel sluggish to move around. This can cause issues, as many retro games are meant to run at 60hz and may have flickering issues at 30hz.
 
 ### Hardware
 
-I have two 4k monitors to test with. An older BenQ BL3201PH, and a newer [BenQ PD3200U](https://amzn.to/2XSuQRX). The PD3200U has HDMI 2.0 ports, and works great at 4k60hz over HDMI. The older BL3201PH has HDMI 1.4 ports, and can only do 4k60hz over DisplayPort. The HDMI 1.4 ports and the DVI port are only capable of doing 4k at 30hz. An active HDMI to DisplayPort adapter could be used with the pi 4, but they are expensive and I don’t have any on hand to test.
+I have two 4k monitors to test with. An older BenQ BL3201PH, and a newer [BenQ PD3200U](https://amzn.to/2XSuQRX) (paid link). The PD3200U has HDMI 2.0 ports, and works great at 4k60hz over HDMI. The older BL3201PH has HDMI 1.4 ports, and can only do 4k60hz over DisplayPort. The HDMI 1.4 ports and the DVI port are only capable of doing 4k at 30hz. An active HDMI to DisplayPort adapter could be used with the pi 4, but they are expensive and I don’t have any on hand to test.
 
 
 
@@ -43,7 +43,7 @@ I have two 4k monitors to test with. An older BenQ BL3201PH, and a newer [BenQ P
 
 ### Cables
 
-I picked up some cables at the local store that were labeled on the packaging as micro HDMI to HDMI 1.4, and I also ordered some [micro HDMI to HDMI 2.0](https://amzn.to/2K6u8af) cables on amazon. Both types of cables will happily work with 4k60hz, the only difference I saw is that the HDMI 2.0 cables also supported ethernet. It turns out that they’re both just “high speed HDMI” cables, and that the HDMI version in the name doesn’t matter.
+I picked up some cables at the local store that were labeled on the packaging as micro HDMI to HDMI 1.4, and I also ordered some [micro HDMI to HDMI 2.0](https://amzn.to/2K6u8af) (paid link) cables on amazon. Both types of cables will happily work with 4k60hz, the only difference I saw is that the HDMI 2.0 cables also supported ethernet. It turns out that they’re both just “high speed HDMI” cables, and that the HDMI version in the name doesn’t matter.
 
 ### Software
 
@@ -86,3 +86,5 @@ Then, you can configure and run steam link from the games menu! Here’s a side-
 Unfortunately my camera is only 1080p, but it does show how remote play is very responsive and runs at a good framerate. The image quality is sharper on the PC display, but the stream on the pi is pretty close and perfectly playable.
 
 Please leave a comment if you have any tips for steam remote play! If you have any questions, you can find help on the [SBCGaming Discord](https://discord.gg/JdXc6nx).
+
+(As an Amazon Associate I earn from qualifying purchases.)

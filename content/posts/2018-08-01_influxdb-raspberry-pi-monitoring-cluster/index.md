@@ -2,7 +2,7 @@
 title: "InfluxDB Raspberry Pi Monitoring Cluster"
 author: "monofuel"
 date: 2018-08-01T15:01:02.197Z
-lastmod: 2019-08-12T02:40:35Z
+lastmod: 2019-11-03T04:30:07Z
 
 description: ""
 
@@ -10,12 +10,12 @@ subtitle: "It’s been a while since I last got to work with a Linux cluster, so
 
 image: "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/1.jpeg" 
 images:
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/1.jpeg"
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/2.jpeg"
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/3.jpeg"
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/4.jpeg"
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/5.png"
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/6.jpeg"
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/1.jpeg" 
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/2.jpeg" 
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/3.jpeg" 
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/4.jpeg" 
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/5.png" 
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/6.jpeg" 
 
 
 aliases:
@@ -56,15 +56,15 @@ Investing in some Ethernet crimping tools and learning how to cut your own cable
 
 If you don’t have a 3D printer, look to see if a nearby hackerspace or your local library has one that could print the cases for you. There are many stackable cases on [thingiverse](https://www.thingiverse.com/) you can choose from. Or you could just build a self replicating [reprap](https://reprap.org/wiki/RepRap_Machines), it’s not that hard and having your own printer is pretty awesome. You could print cool things like [Gameboys](https://twitter.com/monofuel34089/status/1011013405111533568), [Spaceships](https://twitter.com/monofuel34089/status/1024219492774162432), [a whole lot of spaceships](https://photos.app.goo.gl/vQRweJ5W9vSfoan99), [jesus that’s a lot of spaceships](https://twitter.com/monofuel34089/status/983137712403181568).
 
-*   [5V switch](https://www.amazon.com/gp/product/B000FNFSPY/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B000FNFSPY&amp;linkId=dc2d3455193c0e1745783d03c7fbe7ca)
-*   [12A USB charger](https://www.amazon.com/gp/product/B00OQ19QYA/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00OQ19QYA&amp;linkId=5064cb6d4aa2814b82c4c52df087e885)
-*   4x [Raspberry Pi 3](https://www.amazon.com/gp/product/B01LPLPBS8/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B01LPLPBS8&amp;linkId=78fc541808d3ee997b0ba679529b3ee3) (or whatever version you can get your hands on, could even mix and match if you are up for the challenge)
-*   4x [micro SD cards](https://www.amazon.com/gp/product/B07N34RP5L/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B07N34RP5L&amp;linkId=63507c901176a90077c5c1ccaf3676ca). Size and speed will depend on how much you want to pay for. I went with 32gb
-*   [short usb cable pack](https://www.amazon.com/gp/product/B00ZGVMNRQ/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00ZGVMNRQ&amp;linkId=f19e893c67fe9dcaa969bef04313216c)
+*   [5V switch](https://www.amazon.com/gp/product/B000FNFSPY/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B000FNFSPY&amp;linkId=dc2d3455193c0e1745783d03c7fbe7ca) (paid link)
+*   [12A USB charger](https://www.amazon.com/gp/product/B00OQ19QYA/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00OQ19QYA&amp;linkId=5064cb6d4aa2814b82c4c52df087e885) (paid link)
+*   4x [Raspberry Pi 3](https://www.amazon.com/gp/product/B01LPLPBS8/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B01LPLPBS8&amp;linkId=78fc541808d3ee997b0ba679529b3ee3) (paid link) (or whatever version you can get your hands on, could even mix and match if you are up for the challenge)
+*   4x [micro SD cards](https://www.amazon.com/gp/product/B07N34RP5L/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B07N34RP5L&amp;linkId=63507c901176a90077c5c1ccaf3676ca) (paid link). Size and speed will depend on how much you want to pay for. I went with 32gb
+*   [short usb cable pack](https://www.amazon.com/gp/product/B00ZGVMNRQ/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00ZGVMNRQ&amp;linkId=f19e893c67fe9dcaa969bef04313216c) (paid link)
 *   4x raspberry pi stacking case: [https://www.thingiverse.com/thing:2187350](https://www.thingiverse.com/thing:2187350)
-*   [sticky back velcro](https://www.amazon.com/gp/product/B000TGSPV6/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B000TGSPV6&amp;linkId=ee44e9af4aea569ae8e849cb121dcd6c)
-*   [velcro wrap](https://www.amazon.com/gp/product/B00A4FH34M/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00A4FH34M&amp;linkId=7b04fd0f0236020fea0f52d90410fd27)
-*   optional: [usb hard drive](https://www.amazon.com/gp/product/B07CRG7BBH/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B07CRG7BBH&amp;linkId=af2cde006955f0933d906ddd0f225a47)
+*   [sticky back velcro](https://www.amazon.com/gp/product/B000TGSPV6/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B000TGSPV6&amp;linkId=ee44e9af4aea569ae8e849cb121dcd6c) (paid link)
+*   [velcro wrap](https://www.amazon.com/gp/product/B00A4FH34M/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00A4FH34M&amp;linkId=7b04fd0f0236020fea0f52d90410fd27) (paid link)
+*   optional: [usb hard drive](https://www.amazon.com/gp/product/B07CRG7BBH/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B07CRG7BBH&amp;linkId=af2cde006955f0933d906ddd0f225a47) (paid link)
 
 ### Assembling
 
@@ -174,3 +174,7 @@ Additional cooling may be desired for true high performance computations. Settin
 
 
 ![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/6.jpeg)
+
+
+
+(As an Amazon Associate I earn from qualifying purchases.)
