@@ -6,7 +6,9 @@ https://www.google.com/adsense/new/u/0/pub-9414560385755205/home
 
 https://github.com/budparr/gohugo-theme-ananke
 
-mediumtohugo medium/output/posts/ ./content posts
+https://github.com/bgadrian/medium-to-hugo
+https://medium.com/me/export
+medium-to-hugo medium/output/posts/ ./content posts
 
 invalidate cache: `aws cloudfront create-invalidation --distribution-id EHQEIKS6JDTMZ --paths "/*"`
 1000 free invalidations per month
