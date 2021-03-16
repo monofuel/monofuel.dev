@@ -2,33 +2,36 @@
 title: "InfluxDB Raspberry Pi Monitoring Cluster"
 author: "monofuel"
 date: 2018-08-01T15:01:02.197Z
-lastmod: 2019-11-03T04:30:07Z
+lastmod: 2020-11-16T07:01:30Z
 
 description: ""
 
 subtitle: "It’s been a while since I last got to work with a Linux cluster, so I decided to build an affordable cluster of raspberry Pi computers. It…"
+tags:
+ - Raspberry Pi
+ - Influxdb
+ - Grafana
+ - Docker
+ - Ansible
 
 image: "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/1.jpeg" 
 images:
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/1.jpeg" 
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/2.jpeg" 
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/3.jpeg" 
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/4.jpeg" 
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/5.png" 
- - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/6.jpeg" 
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/1.jpeg"
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/2.jpeg"
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/3.jpeg"
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/4.jpeg"
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/5.png"
+ - "/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/6.jpeg"
 
 
 aliases:
     - "/influxdb-raspberry-pi-monitoring-cluster-23b76621d5b0"
+
 ---
 
 It’s been a while since I last got to work with a Linux cluster, so I decided to build an affordable cluster of raspberry Pi computers. It took an entire afternoon to build! The cluster had 16 cores, 4gb of ram, 128gb of storage, a whopping 16 usb ports and only cost about $200. How many clusters do you know with 16 usb ports?
 
-
-
-
-![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/1.jpeg)
-
+![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/1.jpeg#layoutTextWidth)
 
 
 I decided to set up my cluster for monitoring my computers using Telegraf to report statistics like CPU and Memory usage. Some more awesome stuff you could do with your very own high performance cluster:
@@ -56,15 +59,15 @@ Investing in some Ethernet crimping tools and learning how to cut your own cable
 
 If you don’t have a 3D printer, look to see if a nearby hackerspace or your local library has one that could print the cases for you. There are many stackable cases on [thingiverse](https://www.thingiverse.com/) you can choose from. Or you could just build a self replicating [reprap](https://reprap.org/wiki/RepRap_Machines), it’s not that hard and having your own printer is pretty awesome. You could print cool things like [Gameboys](https://twitter.com/monofuel34089/status/1011013405111533568), [Spaceships](https://twitter.com/monofuel34089/status/1024219492774162432), [a whole lot of spaceships](https://photos.app.goo.gl/vQRweJ5W9vSfoan99), [jesus that’s a lot of spaceships](https://twitter.com/monofuel34089/status/983137712403181568).
 
-*   [5V switch](https://www.amazon.com/gp/product/B000FNFSPY/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B000FNFSPY&amp;linkId=dc2d3455193c0e1745783d03c7fbe7ca) (paid link)
-*   [12A USB charger](https://www.amazon.com/gp/product/B00OQ19QYA/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00OQ19QYA&amp;linkId=5064cb6d4aa2814b82c4c52df087e885) (paid link)
-*   4x [Raspberry Pi 3](https://www.amazon.com/gp/product/B01LPLPBS8/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B01LPLPBS8&amp;linkId=78fc541808d3ee997b0ba679529b3ee3) (paid link) (or whatever version you can get your hands on, could even mix and match if you are up for the challenge)
-*   4x [micro SD cards](https://www.amazon.com/gp/product/B07N34RP5L/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B07N34RP5L&amp;linkId=63507c901176a90077c5c1ccaf3676ca) (paid link). Size and speed will depend on how much you want to pay for. I went with 32gb
-*   [short usb cable pack](https://www.amazon.com/gp/product/B00ZGVMNRQ/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00ZGVMNRQ&amp;linkId=f19e893c67fe9dcaa969bef04313216c) (paid link)
+*   [5V switch](https://amzn.to/3kAb0S2) (paid link)
+*   [12A USB charger](https://amzn.to/3kx0ued) (paid link)
+*   4x [Raspberry Pi 3](https://amzn.to/35ys46u) (paid link) (or whatever version you can get your hands on, could even mix and match if you are up for the challenge)
+*   4x [micro SD cards](https://amzn.to/3lyPa2I) (paid link). Size and speed will depend on how much you want to pay for. I went with 32gb
+*   [short usb cable pack](https://amzn.to/38Z5aHV) (paid link)
 *   4x raspberry pi stacking case: [https://www.thingiverse.com/thing:2187350](https://www.thingiverse.com/thing:2187350)
-*   [sticky back velcro](https://www.amazon.com/gp/product/B000TGSPV6/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B000TGSPV6&amp;linkId=ee44e9af4aea569ae8e849cb121dcd6c) (paid link)
-*   [velcro wrap](https://www.amazon.com/gp/product/B00A4FH34M/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00A4FH34M&amp;linkId=7b04fd0f0236020fea0f52d90410fd27) (paid link)
-*   optional: [usb hard drive](https://www.amazon.com/gp/product/B07CRG7BBH/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=monomedium-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B07CRG7BBH&amp;linkId=af2cde006955f0933d906ddd0f225a47) (paid link)
+*   [sticky back velcro](https://amzn.to/3lyPHle) (paid link)
+*   [velcro wrap](https://amzn.to/38L5dXv) (paid link)
+*   optional: [usb hard drive](https://amzn.to/2Us4l1I) (paid link)
 
 ### Assembling
 
@@ -72,29 +75,17 @@ I started by testing all the parts together. I crimped a couple of short 1 ft et
 
 Once I knew all the hardware worked, I picked a random stackable pi case on thingiverse and started printing 4 of them. Printing cases can take a while, so you can start to tinker with the software during this time. I used blue plastic because that’s what I happened to have in the printer at the time, and was too lazy to change it.
 
-
-
-
-![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/2.jpeg)
-
+![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/2.jpeg#layoutTextWidth)
 
 
 I applied 2 rows of sticky velcro to the power supply and to the network switch. Optionally, you can put opposite velcro on each side of a hard drive, and sandwich it between the switch and the power supply. I would not recommend eating this sandwich though. Then I taped one of the stackable pi cases to the top of the switch. I had to borrow the hard drive from this project to store hundreds of gigs of 5k 360 photos and videos of Iceland, so I’m not currently using it. However if you do have an external drive, you could configure the head node as a NFS server to share the disk to the cluster instead of running glusterfs.
 
-
-
-
-![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/3.jpeg)
-
+![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/3.jpeg#layoutTextWidth)
 
 
 I wanted to use only one power cable for the entire cluster, so I chose a low power 5V switch that I could modify to run on USB. I cut the power cable for the switch along with one of the USB cables and spliced the ground and power lines together. Do not wire the data lines (they do not like power). If magic smoke is released when using the expertly crafted adapter, go back to step 1.
 
-
-
-
-![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/4.jpeg)
-
+![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/4.jpeg#layoutTextWidth)
 
 
 Once all the cases were printed, I installed a pi on each case and stacked them up. Using some velcro wrap to keep the cables organized (because we are classy and put some effort into cable organization), I connected everything together. I used the 1ft usb cables for the bottom 2 pi’s and 3ft cables for the top 2.
@@ -151,11 +142,7 @@ The compose file defines a Grafana service and an Influxdb service. The containe
 
 Running `docker stack deploy -c ./docker-compose.yml pi-services` will deploy the containers defined in the compose file to the cluster swarm. Running `docker stack ps pi-services` will check the current status of the deployment. You can then access grafana by browsing to any cluster node on the port 3000. If you have issues, you can run the services locally with `docker-compose up` and looking at the log output.
 
-
-
-
-![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/5.png)
-
+![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/5.png#layoutTextWidth)
 
 
 ### Telegraf
@@ -170,11 +157,17 @@ You can use your own armhf compatible docker compose file to deploy any services
 
 Additional cooling may be desired for true high performance computations. Setting it up with a usb powered fan helps, but I’m sure this could be better with some additional RGB lighting.
 
+![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/6.jpeg#layoutTextWidth)
+
+
+### Influx Data Presentation
+
+Thanks to the team at InfluxData, I got to give a presentation about my cluster!
+
+{{< youtube 1AC3M0IwLTw >}}
 
 
 
-![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/6.jpeg)
-
-
+If you love this project, feel free to follow me on [Medium](https://medium.com/@monofuel34089), [Twitter](https://twitter.com/monofuel34089), or on [Youtube](https://www.youtube.com/user/monofuel) for more! I also host a backup of my blog at [https://monofuel.dev/](https://monofuel.dev/)
 
 (As an Amazon Associate I earn from qualifying purchases.)
