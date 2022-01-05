@@ -2,7 +2,7 @@
 title: "3D Printed Buster Sword"
 author: "monofuel"
 date: 2020-11-16T03:59:02.132Z
-lastmod: 2020-11-16T07:01:36Z
+lastmod: 2022-01-05T23:29:13Z
 
 description: ""
 
@@ -39,6 +39,8 @@ Perfect for Social Distancing
 
 After Shelter-In-Place started, I wanted to keep busy with a huge project. For a few years, I’ve always wanted to 3D print a life-sized Buster sword, Yet never had the time to dedicate to it. What time could be better than now!
 
+This blog is supported through Amazon Affiliate links. When you buy through product links, I may earn commissions to help fund future projects.
+
 ![image](/posts/2020-11-16_3d-printed-buster-sword/images/2.jpeg#layoutTextWidth)
 
 
@@ -46,9 +48,9 @@ After Shelter-In-Place started, I wanted to keep busy with a huge project. For a
 
 I got the printer-ready 3D model from [MyMiniFactory](https://www.myminifactory.com/object/3d-print-buster-sword-full-scale-3155). The design of this sword is from Crisis Core.
 
-I built my first 3D printer, a Makerfarm Prusa i3, way back in 2013. Over the next few years, I upgraded bits and pieces of it. In 2018, I got an upgrade kit to convert it to a [Makerfarm Pegasus 12&#34;](https://www.makerfarm.com/index.php/12-pegasus-kit.html). The 12&#34; print bed of the Pegasus was plenty big enough for printing every part of the buster sword model.
+I built my first 3D printer, a Makerfarm Prusa i3, way back in 2013. Over the next few years, I upgraded bits and pieces of it. In 2018, I got an upgrade kit to convert it to a Makerfarm Pegasus 12&#34;. The 12&#34; print bed of the Pegasus was plenty big enough for printing every part of the buster sword model.
 
-The plastic that I used for this print was [3mm light grey PETG](https://amzn.to/36yynqf) (paid link), from overture 3D. They also offer [1.75mm PETG](https://amzn.to/3nnhB4a) (paid link) filament. I wanted to use PETG for this project, as it is very strong and does not warp for large parts like ABS does. PLA could be another good choice for a print like this. I wouldn’t recommend ABS, as the parts for the sword are very large and would likely warp or crack.
+The plastic that I used for this print was [3mm light grey PETG](https://amzn.to/36yynqf), from overture 3D. They also offer [1.75mm PETG](https://amzn.to/3nnhB4a) filament. I wanted to use PETG for this project, as it is very strong and does not warp for large parts like ABS does. PLA could be another good choice for a print like this. I wouldn’t recommend ABS, as the parts for the sword are very large and would likely warp or crack.
 
 ![image](/posts/2020-11-16_3d-printed-buster-sword/images/3.jpeg#layoutTextWidth)
 
@@ -77,33 +79,33 @@ I went through about 3 spools of plastic, and it took about 200 hours of printin
 
 The 200 hours of printing was the easiest part of the project. The real challenge came in assembling and finishing the sword.
 
-I first tested out [Gorilla Glue](https://amzn.to/32IpsBv) (paid link) to attach parts, after [clamping](https://amzn.to/3ntpq8x) (paid link) them together. I found the glue didn’t bond to the plastic very well, it would wiggle a bit and fall apart. It also turns out that primer does not stick to gorilla glue. The primer would bubble and peel off without sticking. This was no good!
+I first tested out [Gorilla Glue](https://amzn.to/32IpsBv) to attach parts, after [clamping](https://amzn.to/3ntpq8x) them together. I found the glue didn’t bond to the plastic very well, it would wiggle a bit and fall apart. It also turns out that primer does not stick to gorilla glue. The primer would bubble and peel off without sticking. This was no good!
 
-I found [Gorilla Epoxy](https://amzn.to/35rB2m2) (paid link) worked far better. It was smelly, and required waiting several hours for it to cure, but the resulting bond was very strong. The finished sword does not crack or break when held parallel to the ground.
+I found [Gorilla Epoxy](https://amzn.to/35rB2m2) worked far better. It was smelly, and required waiting several hours for it to cure, but the resulting bond was very strong. The finished sword does not crack or break when held parallel to the ground.
 
 ![image](/posts/2020-11-16_3d-printed-buster-sword/images/8.jpeg#layoutTextWidth)
 
 
-After the epoxy cured, there was still a seam between the 3D printed parts. I used some [bondo](https://amzn.to/3lu9Okx) (paid link) to cover up the gaps between parts. Bondo is very quick to dry and very easy to sand, making it perfect to cover up all the seams for the sword.
+After the epoxy cured, there was still a seam between the 3D printed parts. I used some [bondo](https://amzn.to/3lu9Okx) to cover up the gaps between parts. Bondo is very quick to dry and very easy to sand, making it perfect to cover up all the seams for the sword.
 
 ![image](/posts/2020-11-16_3d-printed-buster-sword/images/9.jpeg#layoutTextWidth)
 
 
 ### Finishing
 
-This was the first time I ever attempted to finish one of my 3D prints. It was a great learning experience! to give the prints a smooth finish, I used some [sandpaper and a sanding block](https://amzn.to/3nnc7Gn) (paid link). An electric sander may be easier, but I didn’t have one on hand, and worried about melting the plastic if I wasn’t careful.
+This was the first time I ever attempted to finish one of my 3D prints. It was a great learning experience! to give the prints a smooth finish, I used some [sandpaper and a sanding block](https://amzn.to/3nnc7Gn). An electric sander may be easier, but I didn’t have one on hand, and worried about melting the plastic if I wasn’t careful.
 
-I didn’t want to sand away too much of the plastic itself. I started by applying a layer of [sandable filler primer](https://amzn.to/3eVId9p) (paid link) to try to fill in the gaps between layers. Wet sanding the parts worked very well, as dry sanding made a lot of dust and mess to clean up. I repeated the primer / sanding process a couple of times until the print had a nice smooth finish.
+I didn’t want to sand away too much of the plastic itself. I started by applying a layer of [sandable filler primer](https://amzn.to/3eVId9p) to try to fill in the gaps between layers. Wet sanding the parts worked very well, as dry sanding made a lot of dust and mess to clean up. I repeated the primer / sanding process a couple of times until the print had a nice smooth finish.
 
 ![image](/posts/2020-11-16_3d-printed-buster-sword/images/10.jpeg#layoutTextWidth)
 
 
-Once the entire sword was smooth and primed, I coated it with [charcoal black paint](https://amzn.to/3eZURE4) (paid link). [packing paper](https://amzn.to/3puOYUj) (paid link) worked great as a surface to paint on, as the sheets were large and easy to dispose of. After a few layers of charcoal black, I used [blue tape](https://amzn.to/3ptQx56) (paid link) to mask off the parts I wanted to keep black. I used [nickel paint](https://amzn.to/2IC1BMi) (paid link) to give the sword it’s iconic grey edge. After some more very careful masking, I used [gold paint](https://amzn.to/32IpeKw) (paid link) to color the hilt of the sword.
+Once the entire sword was smooth and primed, I coated it with [charcoal black paint](https://amzn.to/3eZURE4). [packing paper](https://amzn.to/3puOYUj) worked great as a surface to paint on, as the sheets were large and easy to dispose of. After a few layers of charcoal black, I used [blue tape](https://amzn.to/3ptQx56) to mask off the parts I wanted to keep black. I used [nickel paint](https://amzn.to/2IC1BMi) to give the sword it’s iconic grey edge. After some more very careful masking, I used [gold paint](https://amzn.to/32IpeKw) to color the hilt of the sword.
 
 ![image](/posts/2020-11-16_3d-printed-buster-sword/images/11.jpeg#layoutTextWidth)
 
 
-With the painting completed, It was time to wrap a [leather strip] (https://amzn.to/3eXWp1p)(paid link) around the handle. I applied some epoxy to the handle, and clamped one end of the strap to it. Then I carefully wrapped the strip along the handle, trying to avoid gaps between each wrap. I clamped the other end of the strip at the top of the handle, and let the epoxy cure.
+With the painting completed, It was time to wrap a [leather strip](https://amzn.to/3eXWp1p) around the handle. I applied some epoxy to the handle, and clamped one end of the strap to it. Then I carefully wrapped the strip along the handle, trying to avoid gaps between each wrap. I clamped the other end of the strip at the top of the handle, and let the epoxy cure.
 
 ![image](/posts/2020-11-16_3d-printed-buster-sword/images/12.jpeg#layoutTextWidth)
 

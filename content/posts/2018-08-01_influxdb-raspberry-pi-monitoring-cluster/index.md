@@ -2,7 +2,7 @@
 title: "InfluxDB Raspberry Pi Monitoring Cluster"
 author: "monofuel"
 date: 2018-08-01T15:01:02.197Z
-lastmod: 2020-11-16T07:01:30Z
+lastmod: 2022-01-05T23:29:12Z
 
 description: ""
 
@@ -30,6 +30,8 @@ aliases:
 ---
 
 It’s been a while since I last got to work with a Linux cluster, so I decided to build an affordable cluster of raspberry Pi computers. It took an entire afternoon to build! The cluster had 16 cores, 4gb of ram, 128gb of storage, a whopping 16 usb ports and only cost about $200. How many clusters do you know with 16 usb ports?
+
+This blog is supported through Amazon Affiliate links. When you buy through product links, I may earn commissions to help fund future projects.
 
 ![image](/posts/2018-08-01_influxdb-raspberry-pi-monitoring-cluster/images/1.jpeg#layoutTextWidth)
 
@@ -59,15 +61,15 @@ Investing in some Ethernet crimping tools and learning how to cut your own cable
 
 If you don’t have a 3D printer, look to see if a nearby hackerspace or your local library has one that could print the cases for you. There are many stackable cases on [thingiverse](https://www.thingiverse.com/) you can choose from. Or you could just build a self replicating [reprap](https://reprap.org/wiki/RepRap_Machines), it’s not that hard and having your own printer is pretty awesome. You could print cool things like [Gameboys](https://twitter.com/monofuel34089/status/1011013405111533568), [Spaceships](https://twitter.com/monofuel34089/status/1024219492774162432), [a whole lot of spaceships](https://photos.app.goo.gl/vQRweJ5W9vSfoan99), [jesus that’s a lot of spaceships](https://twitter.com/monofuel34089/status/983137712403181568).
 
-*   [5V switch](https://amzn.to/3kAb0S2) (paid link)
-*   [12A USB charger](https://amzn.to/3kx0ued) (paid link)
-*   4x [Raspberry Pi 3](https://amzn.to/35ys46u) (paid link) (or whatever version you can get your hands on, could even mix and match if you are up for the challenge)
-*   4x [micro SD cards](https://amzn.to/3lyPa2I) (paid link). Size and speed will depend on how much you want to pay for. I went with 32gb
-*   [short usb cable pack](https://amzn.to/38Z5aHV) (paid link)
+*   [5V switch](https://amzn.to/3kAb0S2)
+*   [12A USB charger](https://amzn.to/3kx0ued)
+*   4x [Raspberry Pi 3](https://amzn.to/35ys46u) (or whatever version you can get your hands on, could even mix and match if you are up for the challenge)
+*   4x [micro SD cards](https://amzn.to/3lyPa2I) — Size and speed will depend on how much you want to pay for. I went with 32gb
+*   [short usb cable pack](https://amzn.to/38Z5aHV)
 *   4x raspberry pi stacking case: [https://www.thingiverse.com/thing:2187350](https://www.thingiverse.com/thing:2187350)
-*   [sticky back velcro](https://amzn.to/3lyPHle) (paid link)
-*   [velcro wrap](https://amzn.to/38L5dXv) (paid link)
-*   optional: [usb hard drive](https://amzn.to/2Us4l1I) (paid link)
+*   [sticky back velcro](https://amzn.to/3lyPHle)
+*   [velcro wrap](https://amzn.to/38L5dXv)
+*   optional: [usb hard drive](https://amzn.to/2Us4l1I)
 
 ### Assembling
 
@@ -164,7 +166,8 @@ Additional cooling may be desired for true high performance computations. Settin
 
 Thanks to the team at InfluxData, I got to give a presentation about my cluster!
 
-{{< youtube 1AC3M0IwLTw >}}
+
+
 
 
 

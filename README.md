@@ -10,5 +10,5 @@ https://github.com/bgadrian/medium-to-hugo
 https://medium.com/me/export
 medium-to-hugo medium/output/posts/ ./content posts
 
-invalidate cache: `aws cloudfront create-invalidation --distribution-id EHQEIKS6JDTMZ --paths "/*"`
+invalidate cache: `aws cloudfront create-invalidation --distribution-id EHK4LISFHQSWK --paths "/*"`
 1000 free invalidations per month

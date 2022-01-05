@@ -2,7 +2,7 @@ version: '3'
 services:
   web:
     build: .
-    command: hugo server -p 5000 --bind 0.0.0.0 -b http://192.168.1.165:5000/
+    command: hugo server -p 5000 --bind 0.0.0.0 -b http://192.168.110.128:5000/
     volumes:
       - .:/go/src/app/
     ports:

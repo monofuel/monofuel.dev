@@ -2,7 +2,7 @@
 title: "GammaPi Prototype"
 author: "monofuel"
 date: 2020-06-28T22:24:22.040Z
-lastmod: 2020-11-16T07:01:33Z
+lastmod: 2022-01-05T23:29:12Z
 
 description: ""
 
@@ -32,13 +32,15 @@ Designing a 3D printed Raspberry Pi 3 A+ Portable
 ![image](/posts/2020-06-28_gammapi-prototype/images/1.jpeg#layoutTextWidth)
 ### history
 
-A couple years ago I bought my first 3D printer kit, a Makerfarm Prusa i3. This last year, I upgraded it into a massive [Makerfarm Pegasus 12&#34;](https://www.makerfarm.com/index.php/3d-printer-kits/12-pegasus-kit.html). Ever since I first got a 3D printer, I’ve been on the lookout for cool things to 3D print.
+A couple years ago I bought my first 3D printer kit, a Makerfarm Prusa i3. This last year, I upgraded it into a massive Makerfarm Pegasus 12&#34;. Ever since I first got a 3D printer, I’ve been on the lookout for cool things to 3D print.
 
 I grew up playing the Super Nintendo, so the [Adafruit Pigrrl 2](https://learn.adafruit.com/pigrrl-2) looked like an awesome project! I ordered a kit, printed all the parts, spent a few days assembling, and ended up with a working gaming handheld. I even modified the back, to support a right-angle HDMI connector! [thingiverse link](https://www.thingiverse.com/thing:2969569).
 
 However the Pigrrl 2 didn’t really fit in my pocket, and the thin case was kind of brittle when printed in PLA. I tried printing the case in ABS, but it warped too much. So I decided to try to build a [Pigrrl Zero](https://learn.adafruit.com/pigrrl-zero/overview)! It took a lot longer to assemble. There was a lot of careful wiring and soldering, but all that work resulted in a much smaller portable. Unfortunately, the Raspberry Pi Zero w only has 1 core, so this limits what games can be played. Since the Pi Zero is soldered directly to the LCD, it was challenging to try to modify the wiring to add features like an audio port or speaker. I began to wonder if I could reach some sort of balance between the Pigrrl 2 and Pigrrl Zero.
 
 This isn’t my first Raspberry Pi project, feel free to check out my [Raspberry Pi cluster](https://medium.com/@monofuel34089/influxdb-raspberry-pi-monitoring-cluster-23b76621d5b0) or my [talking toaster](https://www.youtube.com/watch?v=CeTM4jQWmZM)!
+
+This blog is supported through Amazon Affiliate links. When you buy through product links, I may earn commissions to help fund future projects.
 
 ### About This Post
 
@@ -61,11 +63,11 @@ The 4 holes in the middle are for 4 bumper buttons- l1, l2, r1 and r2!
 
 
 
-With those dimensions in mind, I had to pick a Raspberry Pi to use. The full sized [Raspberry Pi 3 model b](https://amzn.to/35ys46u) (paid link), or the [Pi 4](https://amzn.to/2IH4fjU) (paid link), are both way too big for this. They use a lot of power, and the collection of Ethernet and USB ports on the side take up way too much space. The [Pi Zero](https://amzn.to/3pzgbFF) (paid link) is much smaller, but doesn’t have very much performance. The Pi Zero also has a mini HDMI port, and I don’t really want to mess with adapters.
+With those dimensions in mind, I had to pick a Raspberry Pi to use. The full sized [Raspberry Pi 3 model b](https://amzn.to/35ys46u), or the [Pi 4](https://amzn.to/2IH4fjU), are both way too big for this. They use a lot of power, and the collection of Ethernet and USB ports on the side take up way too much space. The [Pi Zero](https://amzn.to/3pzgbFF) is much smaller, but doesn’t have very much performance. The Pi Zero also has a mini HDMI port, and I don’t really want to mess with adapters.
 
 If I was a bit more skilled with hardware, the Pi Compute Module could have been a good fit. However I wanted to avoid the complexity of designing a custom circuit board, to reduce the scope of the project.
 
-Luckily during the time I was planning the project, the [Raspberry Pi 3 A+](https://amzn.to/3f14yCt) (paid link) came out! This small board has similar specs to the pi 3, except with reduced ram and only 1 USB port on the side. This smaller, simpler board was perfect.
+Luckily during the time I was planning the project, the [Raspberry Pi 3 A+](https://amzn.to/3f14yCt) came out! This small board has similar specs to the pi 3, except with reduced ram and only 1 USB port on the side. This smaller, simpler board was perfect.
 
 ![image](/posts/2020-06-28_gammapi-prototype/images/3.jpeg#layoutTextWidth)
 
